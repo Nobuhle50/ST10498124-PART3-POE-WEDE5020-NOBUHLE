@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(160, 163, 163);
+   
+    
+}
+h1{
+    color: rgb(88, 45, 62);
+    text-align: center;
+    font-size: medium;
+}
+nav{
+    margin-top: 10%;
+    background-color: rgb(84, 87, 92);
+    backdrop-filter: blur(10px);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-color: rgb(25, 26, 26);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 1rem;
+}
+        a{
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: 1.5rem;
+            margin: 0 1rem;
+    }
+        

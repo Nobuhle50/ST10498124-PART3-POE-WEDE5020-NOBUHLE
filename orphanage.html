@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Home | Hlehle's Orphanage</title>
+    <meta name="description" content="Hlehle's Orphanage provides love, safety, education and hope for vulnerable children. Support us through sponsorship, donations and volunteering.">
+    <meta name="keywords" content="orphanage, children, sponsorship, non-profit, South Africa, donate, Hlehle's Orphanage">
+    <meta name="author" content="Hlehle's Orphanage">
+
+    <!-- Open Graph (looks nice when shared on WhatsApp / Facebook) -->
+    <meta property="og:title" content="Hlehle's Orphanage">
+    <meta property="og:description" content="Providing love, safety and hope for children in need.">
+    <meta property="og:type" content="website">
+
+    <!-- CSS,JavaScript -->
+    <link rel="stylesheet" href="style.css">
+    <script src="js\javaScript.js" defer></script>
+    <script src=".hintrc" defer></script>
+    <script src="js\video.js" defer></script>
+    
+    <!-- Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+   <script>
+    window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+   gtag('config', 'G-XXXXXXXXXX');
+   </script>
+</head>
+<body>
+    
+<!-- header and navigation -->
+        <header>
+            <!--showing how pages links to one another and find more informations to those pages-->
+        <div class="container header-container">
+        <div class="logo">
+    <a href="index.html" class="logo-link">
+        <span class="logo-icon">👧👦</span>
+        <div class="logo-text">
+            <h1>Hlehle's Orphanage</h1>
+            <p class="tagline">Love • Safety • Hope</p>
+        </div>
+        </a>
+        </div>
+        <div class="nav-wrapper">
+            <nav>
+                <ul>
+                    <li><a href="orphanage.html" class="active">Home</a></li>
+                    <li><a href="hlehle'scase.html">contact</a></li>
+                    <li><a href="growup.html">Events & Programs</a></li>
+                    <li><a href="sponsorship.html.html">Sponsorship</a></li>
+                    <li><a href="more.details.html">About us</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search events or programs..." onkeyup="searchContent()">
+    <button type="button" onclick="searchContent()" aria-label="Search">🔍</button>
+</div>
+</header>
+
+
+<!-- Hero Video Section -->
+<section class="hero-video">
+    <div class="video-container">
+        <video autoplay muted loop playsinline id="heroVideo">
+            <source src="videos/kids-playing-2.mp4" type="video/mp4">
+            <a href="js\video.js" download>Download Video</a>
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay">
+            <h1>Welcome to Hlehle's Orphanage</h1>
+            <p>Every child deserves love, safety and a chance to play.</p>
+           <button class="btn-sponsor" onclick="window.location.href='growup.html'"> LIVE WITH US </button>
+        </div>
+    </div>
+</section>
+
+    <!--welcoming you in my website with warmth-->
+     <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Every Child Deserves Love, Safety & a Future</h2>
+            <p>We provide a safe home, education, healthcare and hope for orphans and vulnerable children in Pretoria.</p>
+            <a href="sponsorship.html" class="btn">Support a Child Today</a>
+        </div>
+    </section>
+
+    <!-- Date & Time Section -->
+<section class="datetime-section">
+    <h3>Current Date & Time</h3>
+    <p>Click the button below to see the live date and time</p>
+    
+    <button class="btn-datetime" onclick="showDateTime()">
+        Show Date & Time
+    </button>
+    
+    <div id="dateTime" class="datetime-display">
+        Date & Time will appear here...
+    </div>
+</section>& Time will display here...</p>
+
+    <main class="container">
+        <!-- About Preview -->
+        <section class="intro">
+            <h2>Welcome to Hlehle's Orphanage</h2>
+            <p>Hlehle's Orphanage is a non-profit organisation dedicated to caring for children who have lost their parents or been abandoned. We believe every child deserves a family, education, and the chance to grow up with love and dignity.</p>
+            <p>Our first priority is covering basic needs: nutritious meals, clothing, safe housing, medical care and education.</p>
+        </section>
+    
+      
+     <!-- Key Focus Areas -->
+        <section class="cards">
+            <article class="card">
+                <h3>Covering Basic Needs</h3>
+                <p>Daily meals, clothing, hygiene products, safe shelter, medical care and school materials.</p>
+            </article>
+            <article class="card">
+                <h3>Education & Development</h3>
+                <p>School fees, books, skills training, counselling, sports and talent development.</p>
+            </article>
+            <article class="card">
+                <h3>Long-term Support</h3>
+                <p>We prepare children for life after 18 through life skills, mentorship and responsible release or adoption support.</p>
+            </article>
+        </section>
+    
+        <!-- Call to Action -->
+        <section class="cta">
+            <h2>We Need Your Help</h2>
+            <p>Rising costs, high demand and limited funding mean we rely on the generosity of people like you.</p>
+            <a href="sponsorship.html" class="btn">Become a Sponsor</a>
+            <a href="contact.html" class="btn btn-outline">Contact Us</a>
+        </section>
+    
+    <br/>
+    <p>Children who live in orphanages rely on consistent support for day-to-day needs, education, healthcare, and even what comes next.
+     Many orphanages face limited funding and rising operating costs. Plus, the operational costs just keep going up, so it becomes harder 
+    to keep everything running. That’s why fundraising for orphanage programs has turned into something more…</p>
+    <br/>
+    
+     
+    <section class="kids-gallery">
+    <div class="container">
+        <h2>Our Children Playing & Growing</h2>
+        <p>Every child deserves joy, laughter and a safe place to play.</p>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="image/p.jpg" alt="Children playing outside" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="image/nice.jpg" alt="Kids laughing and running" class="gallery-img">
+            </div>
+            <div class="gallery-item">
+                <img src="image/b.jpg" alt="Children enjoying games" class="gallery-img">
+            </div>
+        </div>
+         <div class="image-block">
+    <img src="image/kids.jpg"  alt="A large group of happy African children gathered outdoors in bright sunlight, with a girl in the center wearing a dark polka-dot shirt smiling widely with arms outstretched. Children around her in colorful clothing appear joyful and engaged, with sandy ground visible beneath them, conveying warmth, community, hope and childhood joy">
+    </div>
+
+        
+    </div>
+</section>
+    
+    <p>To see our loving work towards our orpanage in addition we have events to host for 
+                                                    children to have fun however we have many things that helps our kids to feel special
+                                                    is their own talents <b>every kid is encouraged to take out what god given her/him 
+                                                    such as singing</b> <a href="growup.html">growup</a> to contact us find us header
+                                                    <a href="hlehle'scase.html">hlehle'scase</a> to find more information about us and 
+                                                   <a href="more.details.html">more.details</a> moreover our sponsors are doing massive
+                                                   job to provide us with things we need <a href="sponsorship.html">sponsorship</a> we
+                                                    here to resolve our lost babies and give them love </p>
+                                                   
+    <br/>
+    <h2>we help those who have nobody</h2>
+
+    <!--our 2030 goal-->
+    <p>The 2030 Goal: The policy dictates that by 2030, funding
+    will be systematically redirected away from physical institutions
+    and funneled directly into prevention programs, universal
+    nurturing parenting training, and family-based alternative care.</p>
+    <br/>
+    <!--we are talking about how we accepts things that are coming from other people-->
+    <p>as <b>Hlehle's orphanage</b> we accept donations 
+    like clothes,money,food,academic things etc. we always
+    there to make our kids happy and not to let one another
+    to feel lonely and unloved .we thank <b>deal or no deal 
+    celebrity lottostar</b> for your support .we thank 
+    everybody who took effort to pay attention to this .
+    we will be glad if you if you donate for our charity
+    we always meet differen people and their characters ,it
+    always make sense to our children .please continue to do so.
+    </p>
+    <!--a picture of how our home orphanage look like and some things  keep our team operating-->
+    <!-- Centered image block -->
+    <div class="image-block">
+    <img src="image/home.webp"  alt="Hlehle's Orphanage building exterior">
+    </div>
+
+     
+    <p>we are encourage to tell you about our marvellious orphanage that is taking good caregiver
+                                                     of our children
+                                                    </p>
+                                                    <p>Rising Operational Costs: Centers struggle heavily with inflation,
+                                                     as food prices doubled following the pandemic. High electricity bills 
+                                                     and volatile municipal water supplies worsen the financial strain.
+                                                     Overwhelming Demand: Millions of citizens live beneath the poverty line.
+                                                     Extreme local unemployment, combined with the legacy of the HIV/AIDS epidemic
+                                                     and child abandonment, forces centers to step in when families simply
+                                                     cannot afford basic care.Developmental Risks: Decades of child psychology
+                                                     research prove that institutionalization harms a child's cognitive, physical,
+                                                     and emotional development due to a lack of an attentive, consistent primary caregiver</p>
+
+    
+
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Hlehle's Orphanage. All rights reserved.</p>
+            <p>1617 Hatfield, Pretoria | hlehleorphanage@charity.co.za | +27 11 789 9019</p>
+            <p>other addresses: 123 Main Street, Cape Town | 456 Oak Avenue, Durban</p>
+            <p>social media</p>
+            <div class="social-icons">
+                
+    <a href="https://facebook.com" target="_blank" rel="noopener">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="32">
+    </a>
+    <a href="https://instagram.com" target="_blank" rel="noopener">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="32">
+    </a>
+    <a href="https://tiktok.com" target="_blank" rel="noopener">
+        <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok" width="32">
+    </a>
+    <a href="https://wa.me/2787676908" target="_blank" rel="noopener">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="32">
+    </a>
+</div>
+            
+    
+            <nav>
+                <ul>
+                    <li><a href="orphanage.html" class="active">Home</a></li>
+                    <li><a href="hlehle'scase.html">contact</a></li>
+                    <li><a href="growup.html">Events & Programs</a></li>
+                    <li><a href="sponsorship.html.html">Sponsorship</a></li>
+                    <li><a href="more.details.html">About us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <!-- Image Watermark -->
+<div class="watermark">
+    <img src="image/nice.jpg" alt="Hlehle's Orphanage Watermark">
+</div>
+    <!-- Back to Top Button -->
+<button id="backToTop" aria-label="Back to top" title="Back to top">↑</button>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <img src="" alt="" id="lightbox-img">
+</div>
+
+<!-- JavaScript file -->
+<script src="js\funcion.js" defer></script>
+<script src="js\javaScript.js" defer></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Contact | Hlehle's Orphanage</title>
+    <meta name="description" content="Hlehle's Orphanage provides love, safety, education and hope for vulnerable children. Support us through sponsorship, donations and volunteering.">
+    <meta name="keywords" content="orphanage, children, sponsorship, non-profit, South Africa, donate, Hlehle's Orphanage">
+    <meta name="author" content="Hlehle's Orphanage">
+
+    <!-- Open Graph (looks nice when shared on WhatsApp / Facebook) -->
+    <meta property="og:title" content="Hlehle's Orphanage">
+    <meta property="og:description" content="Providing love, safety and hope for children in need.">
+    <meta property="og:type" content="website">
+
+    <!-- CSS,JavaScript -->
+    <link rel="stylesheet" href="style.css">
+    <script src="js\javaScript.js" defer></script>
+    <script src=".hintrc" defer></script>
+    <script src="js\video.js" defer></script>
+    
+    <!-- Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+   <script>
+    window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+   gtag('config', 'G-XXXXXXXXXX');
+   </script>
+    </head>
+        
+    </head>
+    <body>
+    <header>
+        <!--links-->
+            <div class="container header-container">
+        <div class="logo">
+        <a href="index.html" class="logo-link">
+        <span class="logo-icon">👧👦</span>
+        <div class="logo-text">
+            <h1>Hlehle's Orphanage</h1>
+            <p class="tagline">Love • Safety • Hope</p>
+        </div>
+        </a>
+        </div>
+        <div class="nav-wrapper">
+        <nav>
+          <ul>
+                    <li><a href="orphanage.html" class="active">Home</a></li>
+                    <li><a href="hlehle'scase.html">contact</a></li>
+                    <li><a href="growup.html">Events & Programs</a></li>
+                    <li><a href="sponsorship.html.html">Sponsorship</a></li>
+                    <li><a href="more.details.html">About us</a></li>
+                    
+                </ul>
+        </nav>
+        </div>
+
+    <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search events or programs..." onkeyup="searchContent()">
+    <button type="button" onclick="searchContent()" aria-label="Search">🔍</button>
+</div>
+    </header>
+
+   
+
+    
+
+ <!--showing how we get contacted if you want us either our help-->
+    <main class="container">
+        <h2>Contact Hlehle's Orphanage</h2>
+
+        <section class="contact-info">
+            <div>
+                <h3>Get in Touch</h3>
+                <p><strong>Email:</strong> <a href="mailto:hlehleorphanage@charity.co.za">hlehleorphanage@charity.co.za</a></p>
+                <p><strong>Phone:</strong> +27 11 789 9019<br>+27 63 517 6755</p>
+                <p><strong>Address:</strong> 1617 Hatfield, Pretoria</p>
+            </div>
+            <div>
+                <h3>Opening Hours</h3>
+                <ul>
+                    <li>Centre: 07:00 – 19:00 daily</li>
+                    <li>Online enquiries: 24/7</li>
+                    <li>Monday–Friday: School support days</li>
+                    <li>Saturday: Fun Day</li>
+                    <li>Sunday: Church & family time</li>
+                </ul>
+            </div>
+        </section>
+
+       
+    <div class="image-block">
+     <img src="image/beauty.jpg" alt="A bright and welcoming community center room filled with colorful decorations and furniture, inviting children and families to gather.">
+     <img src="image/room.jpg" alt="A group of children happily enjoying a nutritious meal together at a long table, showcasing a sense of community and sharing.">
+     <img src="image/rose.jpg" alt="Children playing joyfully outside in a garden filled with blooming flowers, embodying a spirit of happiness and freedom.">
+     <img src="image/play.jpg" alt="Children sitting together on a picnic blanket, sharing food and laughter in a sunny outdoor setting, reflecting friendship and togetherness.">
+     </div>  
+       
+       <h2>finding out with our events in next page</h2>
+         <div class="accordion">
+    <button class="accordion-btn" onclick="toggleAccordion(this)">Our Mission</button>
+    <div class="accordion-content">
+        <p>We provide love, safety, education and hope for vulnerable children.</p>
+    </div>
+
+    <button class="accordion-btn" onclick="toggleAccordion(this)">How You Can Help</button>
+    <div class="accordion-content">
+        <p>Sponsor a child, donate food, or volunteer your time.</p>
+    </div>
+
+    <button class="accordion-btn" onclick="toggleAccordion(this)">Our Programs</button>
+    <div class="accordion-content">
+        <p>Weekly Fun Day, School Support, and Talent Development.</p>
+    </div>
+</div>
+
+ <!-- Date & Time Section -->
+<section class="datetime-section">
+    <h3>Current Date & Time</h3>
+    <p>Click the button below to see the live date and time</p>
+    
+    <button class="btn-datetime" onclick="showDateTime()">
+        Show Date & Time
+    </button>
+    
+    <div id="dateTime" class="datetime-display">
+        Date & Time will appear here...
+    </div>
+</section>& Time will display here...</p>
+
+         <section>
+            <h3>How to Donate Goods</h3>
+            <p>You can drop off items or send them via PEP / Tekkie Town + PAXI. Please contact us first with the store details so we can arrange collection.</p>
+        </section>
+    </main>
+    <h4>Send us a Message to our <b>CONTACT FORM</b></h4>
+    <p><b>Important:</b> All fields marked with an asterisk (*) are required.</p>
+    <form id="contactForm" novalidate>
+    <div class="form-group">
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" name="name" required>
+        <span id="nameError" class="error-message"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="ID">ID Number / Passport *</label>
+        <input type="tel" id="ID" name="ID" required>
+        <span id="IDError" class="error-message"></span>
+    </div>
+
+
+    <div class="form-group">
+        <label for="tel">Cell Phone Number *</label>
+        <input type="tel" id="tel" name="tel" required>
+        <span id="telError" class="error-message"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" required>
+        <span id="emailError" class="error-message"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="address"> Address *</label>
+        <input type="text" id="address" name="address" required>
+        <span id="addressError" class="error-message"></span>
+    </div>
+
+     <div class="form-group">
+        <label for="nextOfKin">Next of Kin </label>
+        <input type="text" id="nextOfKin" name="nextOfKin" required>
+        <span id="nextOfKinError" class="error-message"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <span id="messageError" class="error-message"></span>
+    </div>
+
+    <button type="submit" class="btn">Send Message</button>
+    <p id="formSuccess" class="success-message" hidden>Thank you! Your message has been sent.</p>
+</form>
+
+<section class="map-section">
+    <h2>Find Us</h2>
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.8!2d28.23!3d-25.74!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDQ0JzI0LjAiUyAyOMKwMTMnNDguMCJF!5e0!3m2!1sen!2sza!4v1600000000000!5m2!1sen!2sza" 
+        width="100%" 
+        height="350" 
+        style="border:0; border-radius: 12px;" 
+        allowfullscreen="" 
+        loading="lazy">
+    </iframe>
+</section>
+       
+       <footer>
+        <div class="container">
+            <p>&copy; 2026 Hlehle's Orphanage. All rights reserved.</p>
+            <p>1617 Hatfield, Pretoria | hlehleorphanage@charity.co.za | +27 11 789 9019</p>
+            <p>other addresses: 123 Main Street, Cape Town | 456 Oak Avenue, Durban</p>
+            <p>social media</p>
+            <div class="social-icons">
+                
+    <a href="https://facebook.com" target="_blank" rel="noopener">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="32">
+    </a>
+    <a href="https://instagram.com" target="_blank" rel="noopener">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="32">
+    </a>
+    <a href="https://tiktok.com" target="_blank" rel="noopener">
+        <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok" width="32">
+    </a>
+    <a href="https://wa.me/2787676908" target="_blank" rel="noopener">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" width="32">
+    </a>
+    
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="orphanage.html" class="active">Home</a></li>
+                    <li><a href="hlehle'scase.html">contact</a></li>
+                    <li><a href="growup.html">Events & Programs</a></li>
+                    <li><a href="sponsorship.html.html">Sponsorship</a></li>
+                    <li><a href="more.details.html">About us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+   
+
+
+    <!-- Image Watermark -->
+<div class="watermark">
+    <img src="image/nice.jpg" alt="Hlehle's Orphanage Watermark">
+</div>
+
+<!-- Back to Top Button -->
+<button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <img src="" alt="" id="lightbox-img">
+</div>
+
+<!-- JavaScript file -->
+<script src="js\funcion.js" defer></script>
+<script src="js\javaScript.js" defer></script>
+    </body>
+</html>
