@@ -98,7 +98,21 @@ charity website/
 ├── robots.txt
 └── README.md
 text
+## 4. How to View the Website
 
+1. Open the project folder in Visual Studio Code  
+2. Right-click `index.html` (or `growup.html`) → **Open with Live Server**  
+3. Or visit the live site on GitHub Pages
+
+---
+
+## 5. Deployment
+
+- **Platform:** GitHub Pages  
+- **Repository:** Nobuhle-WEB5020-POE-ST10498124  
+- **Live URL:** https://nobuhle50.github.io/Nobuhle-WEB5020-POE-ST10498124/
+
+---
 
 ## Changelog
 ### Part 1
