@@ -1,5 +1,6 @@
 # charity website
 part3
+#I created a new repository to push my work because the one I was using it doesn't allow me to push.
 # Hlehle's Orphanage Website
 
 **Student Name:** Nobuhle Keswa  
@@ -8,6 +9,12 @@ part3
 
 ## Project Overview
 A multi-page website for Hlehle's Orphanage, a non-profit organisation in Pretoria that cares for orphaned and vulnerable children. The site provides information about the organisation, events, sponsorship opportunities and contact details.
+
+The website was developed in three parts:
+
+- **Part 1:** Semantic HTML structure and content  
+- **Part 2:** External CSS, layout (Grid & Flexbox), responsive design  
+- **Part 3:** JavaScript functionality, form validation, SEO and deployment
 
 ## Website Goals & Objectives
 - Raise awareness about the orphanage
