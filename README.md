@@ -82,6 +82,23 @@ The website was developed in three parts:
 - Final: Testing, README, GitHub push
 
 ## File Structure
+charity website/
+├── index.html / growup.html
+├── about.html
+├── events.html
+├── sponsorship.html
+├── contact.html
+├── enquiry.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── images/
+├── videos/
+├── robots.txt
+└── README.md
+text
+
 
 ## Changelog
 ### Part 1
