@@ -29,6 +29,45 @@ The website was developed in three parts:
 - External CSS with modern layout (Flexbox & Grid)
 - Hover effects and visual hierarchy
 
+### HTML & Structure
+- Semantic HTML5 elements (`header`, `nav`, `main`, `section`, `footer`)
+- Multiple pages: Home, About, Events & Programs, Sponsorship, Contact, Enquiry
+- Clear navigation between all pages
+- Proper heading structure (`h1`, `h2`, `h3`)
+
+### CSS & Design
+- External stylesheet (`style.css`)
+- CSS Grid and Flexbox layouts
+- Fully responsive design (mobile, tablet, desktop)
+- Attractive colour scheme and hover effects
+- Card layouts for programs and sponsors
+- Social media icons in the footer
+- Decorated Date & Time display section
+
+### JavaScript Functionality
+- Smooth scrolling
+- Back-to-top button
+- Image lightbox gallery
+- Contact form validation with error messages and red borders
+- Search functionality for events and programs
+- Accordion interactive elements
+- `onclick` events
+- Show current date and time feature
+
+### SEO
+- Unique title tags on every page
+- Meta descriptions and keywords
+- Descriptive image alt text
+- Clean URL structure
+- `robots.txt` file
+- Mobile-friendly design
+
+### Forms
+- Contact form with JavaScript validation
+- Enquiry form
+- Error messages for incorrect input
+- Success message when form is valid
+
 ## Pages
 - `index.html` – Homepage
 - `about.html` – About the organisation
