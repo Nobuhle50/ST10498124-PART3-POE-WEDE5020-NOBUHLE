@@ -145,17 +145,13 @@ text
 
 ## 7. References
 
-Independent Institute of Education. (2026). *WEDE5020: Web development (introduction) – Portfolio of evidence*.
-
-Independent Institute of Education. (2026). *WEDE5020 JavaScript Form Validation Notes*.
-
-Independent Institute of Education. (2026). *WEDE5020 JavaScript Basics: Conditional Statements, Arrays & Functions*.
-
-Mozilla Developer Network. (n.d.). *Client-side form validation*. https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
-
-W3Schools. (n.d.). *JavaScript Events*. https://www.w3schools.com/js/js_events.asp
-
-W3Schools. (n.d.). *HTML DOM onclick Event*. https://www.w3schools.com/jsref/event_onclick.asp
+-Independent Institute of Education. (2026). *WEDE5020: Web development (introduction) – Portfolio of evidence*.
+-Independent Institute of Education. (2026). *WEDE5020 JavaScript Form Validation Notes*.
+-Independent Institute of Education. (2026). *WEDE5020 JavaScript Basics: Conditional Statements, Arrays & Functions*.
+-Mozilla Developer Network. (n.d.). *Client-side form validation*. https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
+-W3Schools. (n.d.). *JavaScript Events*. https://www.w3schools.com/js/js_events.asp
+-W3Schools. (n.d.). *HTML DOM onclick Event*. https://www.w3schools.com/jsref/event_onclick.asp
 - Assignment brief – WEDE5020 Portfolio of Evidence
 - MDN Web Docs (HTML & CSS)
-- google (2026). pictures and videos, accessed.(2026,28/10). 
+- google (2026). pictures and videos, accessed. (2026,28/10). https://www.bing.com/search?q=short+videos+kids+playing&form=ANNH01&refig=d4e3ca6257e04a95fc5c03a7020d16e8&pc=HCTS
+- google, pixel videos (2026). videos of kids playing. accessed (2026). https://www.pexels.com/search/videos/children%20playing/ 
