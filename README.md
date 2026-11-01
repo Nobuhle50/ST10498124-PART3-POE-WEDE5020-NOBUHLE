@@ -114,21 +114,48 @@ text
 
 ---
 
-## Changelog
 ### Part 1
-- Created initial HTML structure for all pages
-- Added semantic elements and navigation
-- Fixed invalid tags and nested HTML
-- Organised file and folder structure
+- Created semantic HTML pages
+- Added navigation and basic content
+- Organised the file structure
+- Added images and basic information about the orphanage
 
 ### Part 2
-- Created external style.css
-- Implemented Flexbox and Grid layouts
-- Added responsive breakpoints
-- Improved typography, colours and hover effects
-- Enhanced visual appeal and readability
+- Linked external CSS (`style.css`)
+- Implemented CSS Grid and Flexbox
+- Made the website fully responsive
+- Improved visual design, colours and spacing
+- Added logo and consistent styling across pages
+- Created card layouts for programs and sponsors
 
-## References
+### Part 3
+- Added JavaScript interactivity (smooth scroll, back-to-top, accordion)
+- Implemented image lightbox gallery
+- Built contact and enquiry form validation with clear error messages
+- Added red border styling for invalid form fields
+- Created search functionality for events and programs
+- Added decorated Date & Time feature with `onclick`
+- Updated logo and social media icons
+- Applied SEO best practices (title tags, meta descriptions, heading structure, alt text)
+- Created `robots.txt`
+- Deployed website to GitHub Pages
+- Updated README with full project documentation
+
+---
+
+## 7. References
+
+Independent Institute of Education. (2026). *WEDE5020: Web development (introduction) – Portfolio of evidence*.
+
+Independent Institute of Education. (2026). *WEDE5020 JavaScript Form Validation Notes*.
+
+Independent Institute of Education. (2026). *WEDE5020 JavaScript Basics: Conditional Statements, Arrays & Functions*.
+
+Mozilla Developer Network. (n.d.). *Client-side form validation*. https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
+
+W3Schools. (n.d.). *JavaScript Events*. https://www.w3schools.com/js/js_events.asp
+
+W3Schools. (n.d.). *HTML DOM onclick Event*. https://www.w3schools.com/jsref/event_onclick.asp
 - Assignment brief – WEDE5020 Portfolio of Evidence
 - MDN Web Docs (HTML & CSS)
-- [Add any other sources you used]
+- google (2026). pictures and videos, accessed.(2026,28/10). 
