@@ -141,7 +141,6 @@ text
 - Deployed website to GitHub Pages
 - Updated README with full project documentation
 
----
 
 ## 7. References
 
