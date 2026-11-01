@@ -1,6 +1,6 @@
 # charity website
-part3
-#I created a new repository to push my work because the one I was using it doesn't allow me to push.
+###part3
+###I created a new repository to push my work because the one I was using it doesn't allow me to push.
 # Hlehle's Orphanage Website
 
 **Student Name:** Nobuhle Keswa  
