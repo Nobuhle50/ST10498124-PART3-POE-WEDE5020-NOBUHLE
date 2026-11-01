@@ -98,6 +98,8 @@ charity website/
 ├── robots.txt
 └── README.md
 text
+### I created videos folder
+
 ## 4. How to View the Website
 
 1. Open the project folder in Visual Studio Code  
